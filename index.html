@@ -6,16 +6,32 @@
     <title>Portfolio page</title>
     <style>
 
+.webpage {
+    background-color:rgb(177, 94, 255);
+}
+
+.about {
+    background-color:rgb(177, 94, 255);
+}
+
+.tests {
+    background-color: rgb(0, 255, 234);
+}
+
+.top {
+    background-color: rgb(0, 255, 234);
+}
+
 
 @media(min-width: 800px) {
       .Header {
         float: right;
         padding-top: 6em;
-        padding-right: 40em;
+        padding-right: 35em;
       }
       .img {
           padding-top: 4em;
-          padding-left: 40em;
+          padding-left: 35em;
       }
           
     }
@@ -24,28 +40,38 @@
 </head>
 <body>
 
+    <div class="top">
     <div class="Header">
 <h1>Jody Fortuin</h1>
     </div>
 
 <div class="img">
-    <img src="City.jpg" width="120" length="120">
+    <img src="City.jpg" width="250" length="250">
 </div>
+    </div>
 
 <div class=index>
+    <div class="webpage">
 <h2>Front-end Projects</h2>
 <h4>Html + Simple grid webpage</h4>
 <a href="https://jodyfortuin.github.io/basic_webpage/">basic_webpage</a>
+</div>
+
+<div class="tests">
 <h2>Back-end Projects</h2>
-<h4>TDD Unit Tests<h4>
+TDD Unit Tests
+</br>
 <a href="https://jodyfortuin.github.io/bootcamp-tests/">bootcamp_tests</a>
+</div>
+
+<div class="about">
 <h2>About</h2>
 Enjoys ice skating, eating ice blocks, cutting grass, watching paint dry and jumping out of planes.
 </br>
 </br>
 Below is a link to my CV:
 </br>
-<a href="CV.html">Curriculum Vitae</a>
+<a href="CV.txt">Curriculum Vitae</a>
 </br>
 </br>
 Below you can find links to a few of my published articles:
@@ -54,6 +80,6 @@ Below you can find links to a few of my published articles:
 </br>
 <a href="https://listgecko.com/doomed-expeditions-history/">https://listgecko.com/doomed-expeditions-history/</a>
 </div>
-
+</div>
 </body>
 </html>
